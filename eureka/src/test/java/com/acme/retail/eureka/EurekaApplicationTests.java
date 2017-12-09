@@ -1,4 +1,4 @@
-package com.udea.retailapp.eureka;
+package com.acme.retail.eureka;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

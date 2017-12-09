@@ -1,12 +1,11 @@
 package com.acme.retail.proveedores.config;
 
-import com.acme.retail.proveedores.rabbit.RabbitConsumer;
+import com.acme.retail.proveedores.rabbit.VentaRealizadaConsumer;
 import org.springframework.amqp.core.AcknowledgeMode;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
 import org.springframework.amqp.rabbit.listener.SimpleMessageListenerContainer;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
@@ -36,12 +35,12 @@ public class RabbitConfig {
     }
 
     @Bean
-    public SimpleMessageListenerContainer container(ConnectionFactory connectionFactory, RabbitConsumer rabbitConsumer){
+    public SimpleMessageListenerContainer container(ConnectionFactory connectionFactory, VentaRealizadaConsumer rabbitConsumer){
         SimpleMessageListenerContainer container = new SimpleMessageListenerContainer();
         container.setConnectionFactory(connectionFactory);
         container.setMessageListener(rabbitConsumer);
         container.setQueueNames(properties.getQueueName());
-        container.setAcknowledgeMode(AcknowledgeMode.AUTO);
+        container.setAcknowledgeMode(AcknowledgeMode.MANUAL);
         return container;
     }
 
