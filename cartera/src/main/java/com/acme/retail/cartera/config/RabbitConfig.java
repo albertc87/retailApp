@@ -1,6 +1,6 @@
 package com.acme.retail.cartera.config;
 
-import com.acme.retail.cartera.rabbit.RabbitConsumer;
+import com.acme.retail.cartera.rabbit.VentaRealizadaConsumer;
 import org.springframework.amqp.core.AcknowledgeMode;
 import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
 import org.springframework.amqp.rabbit.connection.ConnectionFactory;
@@ -35,7 +35,7 @@ public class RabbitConfig {
     }
 
     @Bean
-    public SimpleMessageListenerContainer container(ConnectionFactory connectionFactory, RabbitConsumer rabbitConsumer){
+    public SimpleMessageListenerContainer container(ConnectionFactory connectionFactory, VentaRealizadaConsumer rabbitConsumer){
         SimpleMessageListenerContainer container = new SimpleMessageListenerContainer();
         container.setConnectionFactory(connectionFactory);
         container.setMessageListener(rabbitConsumer);
