@@ -1,4 +1,4 @@
-package com.acme.retail;
+package com.acme.retail.model;
 
 public class Cliente {
 
