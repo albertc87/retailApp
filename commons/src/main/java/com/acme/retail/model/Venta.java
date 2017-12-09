@@ -1,12 +1,11 @@
 package com.acme.retail.model;
 
-import java.math.BigDecimal;
-import java.util.Date;
+import org.springframework.data.annotation.Id;
 
 public class Venta {
-
+    @Id
     private String id;
-    private String id_cliente;
+    private String cliente;
     private String descripcion;
     private String estado;
     private String total;
@@ -20,12 +19,12 @@ public class Venta {
         this.id = id;
     }
 
-    public String getId_cliente() {
-        return id_cliente;
+    public String getCliente() {
+        return cliente;
     }
 
-    public void setId_cliente(String id_cliente) {
-        this.id_cliente = id_cliente;
+    public void setCliente(String cliente) {
+        this.cliente = cliente;
     }
 
     public String getDescripcion() {
@@ -58,5 +57,17 @@ public class Venta {
 
     public void setFecha(String fecha) {
         this.fecha = fecha;
+    }
+
+    @Override
+    public String toString() {
+        return "Venta{" +
+                "id='" + id + '\'' +
+                ", cliente='" + cliente + '\'' +
+                ", descripcion='" + descripcion + '\'' +
+                ", estado='" + estado + '\'' +
+                ", total='" + total + '\'' +
+                ", fecha='" + fecha + '\'' +
+                '}';
     }
 }

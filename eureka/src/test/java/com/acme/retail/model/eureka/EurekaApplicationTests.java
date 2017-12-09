@@ -1,4 +1,4 @@
-package com.acme.retail.proveedores;
+package com.acme.retail.model.eureka;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ProveedoresApplicationTests {
+public class EurekaApplicationTests {
 
 	@Test
 	public void contextLoads() {

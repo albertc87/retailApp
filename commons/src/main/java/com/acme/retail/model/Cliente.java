@@ -1,7 +1,9 @@
 package com.acme.retail.model;
 
-public class Cliente {
+import org.springframework.data.annotation.Id;
 
+public class Cliente {
+    @Id
     private String id;
     private String nombre;
     private String apellidos;
@@ -56,5 +58,17 @@ public class Cliente {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public String toString() {
+        return "Cliente{" +
+                "id='" + id + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                ", direccion='" + direccion + '\'' +
+                ", telefono='" + telefono + '\'' +
+                ", email='" + email + '\'' +
+                '}';
     }
 }

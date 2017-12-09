@@ -1,4 +1,4 @@
-package com.acme.retail.crm;
+package com.acme.retail.model.crm;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

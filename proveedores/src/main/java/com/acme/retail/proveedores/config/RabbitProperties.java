@@ -3,7 +3,7 @@ package com.acme.retail.proveedores.config;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties("rabbit")
-class RabbitProperties{
+public class RabbitProperties{
     private String server;
     private String user;
     private String virtualhost;

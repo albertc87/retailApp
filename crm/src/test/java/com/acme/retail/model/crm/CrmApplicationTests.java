@@ -1,4 +1,4 @@
-package com.acme.retail.eureka;
+package com.acme.retail.model.crm;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class EurekaApplicationTests {
+public class CrmApplicationTests {
 
 	@Test
 	public void contextLoads() {

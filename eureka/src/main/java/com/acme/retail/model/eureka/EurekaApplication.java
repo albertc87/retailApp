@@ -1,4 +1,4 @@
-package com.acme.retail.eureka;
+package com.acme.retail.model.eureka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
