@@ -1,8 +1,8 @@
 # Caso Retail
 
 Integrantes:
-Alberto Castro Castro
-Virginia Araujo Mercado
+- Alberto Castro Castro
+- Virginia Araujo Mercado
 
 [Click para ver diseño de la solución](https://drive.google.com/file/d/1gG3YMTE4OLDu8MqmOu-91mECy0eOySsa/view?usp=sharing)
 
