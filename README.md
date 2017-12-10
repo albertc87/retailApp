@@ -4,6 +4,7 @@ Integrantes:
 - Alberto Castro Castro
 - Virginia Araujo Mercado
 
+# Links diseño solución
 - [Click para ver diseño de la solución](https://drive.google.com/file/d/1gG3YMTE4OLDu8MqmOu-91mECy0eOySsa/view?usp=sharing)
 - [Exchanges](https://drive.google.com/open?id=1AVc1Aj9E88vmbpNWsMgATBfncq0xA_pD)
 - [Queues](https://drive.google.com/open?id=1_2QiPwf96QyG5Dpect8k8cRBlBICcUmF)
