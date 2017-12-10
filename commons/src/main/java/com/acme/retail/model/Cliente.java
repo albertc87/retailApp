@@ -2,7 +2,9 @@ package com.acme.retail.model;
 
 import org.springframework.data.annotation.Id;
 
-public class Cliente {
+import java.io.Serializable;
+
+public class Cliente implements Serializable{
     @Id
     private String id;
     private String nombre;
