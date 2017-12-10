@@ -9,7 +9,7 @@ Integrantes:
 # Pre-requisitos
 1. Instalar [MongoDB](https://pages.github.com/) y [Redis](https://redis.io/download)
 
-2. Ejecutar proyectos spring-boot:run:
+2. Ejecutar proyectos spring-boot:run
 - Eureka
 - Ventas
 - Cartera
@@ -23,6 +23,10 @@ Integrantes:
 - Venta: {"id":"123","cliente":"1234","descripcion":"Televisor","estado":"aprobada","total":"3000000","fecha":"9/12/2017"}
 
 - Cliente nuevo: {"id":"1234","nombre":"Alberto","apellidos":"Castro","direccion":"laureles","telefono":"123456","email":"ac@gmail.com"}
+
+# Known Issues
+- Queda pendiente la implementación de Dead Letter
+
 
 
 
