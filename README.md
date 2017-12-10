@@ -1,4 +1,4 @@
-# retailApp - Caso Retail
+#Caso Retail
 
 Integrantes:
 Alberto Castro Castro
@@ -10,14 +10,14 @@ Virginia Araujo Mercado
 1. Instalar [MongoDB](https://pages.github.com/) y [Redis](https://redis.io/download)
 
 2. Ejecutar proyectos spring-boot:run:
-Eureka
-Ventas
-Cartera
-Proveedores
-Crm
-Commons
+- Eureka
+- Ventas
+- Cartera
+- Proveedores
+- Crm
+- Commons
 
-3. Instalar dependencia Commons localmente mvn compile install.
+3. Instalar dependencia Commons localmente: mvn compile install.
 
 #Payload Venta:
 {"id":"123","cliente":"1234","descripcion":"Televisor","estado":"aprobada","total":"3000000","fecha":"9/12/2017"}
