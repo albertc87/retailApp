@@ -34,6 +34,7 @@ public class VentaRealizadaConsumer implements ChannelAwareMessageListener {
         try {
             Venta venta = objectMapper.readValue(incomingMessage,Venta.class);
             repository.save(venta);
+            logger.info("ventas registradas en BD");
             repository.findAll().forEach(System.out::println);
             channel.basicAck(message.getMessageProperties().getDeliveryTag(),false);
         } catch (Exception e) {
