@@ -24,6 +24,9 @@ Integrantes:
 
 - Cliente nuevo: {"id":"1234","nombre":"Alberto","apellidos":"Castro","direccion":"laureles","telefono":"123456","email":"ac@gmail.com"}
 
+# Petición Servicio Rest Consultar Cliente
+curl -X GET \ http://localhost:1118/cliente/12345 \ -H 'cache-control: no-cache' \ -H 'postman-token: e24cc3bc-4430-5336-aae4-bc7f29dab3e5'
+
 # Known Issues
 - Queda pendiente la implementación de Dead Letter
 
