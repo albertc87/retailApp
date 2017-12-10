@@ -19,11 +19,10 @@ Virginia Araujo Mercado
 
 3. Instalar dependencia Commons localmente: mvn compile install.
 
-# Payload Venta:
-{"id":"123","cliente":"1234","descripcion":"Televisor","estado":"aprobada","total":"3000000","fecha":"9/12/2017"}
+# Payload ejemplo:
+- Venta: {"id":"123","cliente":"1234","descripcion":"Televisor","estado":"aprobada","total":"3000000","fecha":"9/12/2017"}
 
-# Payload Cliente Nuevo
-{"id":"1234","nombre":"Alberto","apellidos":"Castro","direccion":"laureles","telefono":"123456","email":"ac@gmail.com"}
+- Cliente nuevo: {"id":"1234","nombre":"Alberto","apellidos":"Castro","direccion":"laureles","telefono":"123456","email":"ac@gmail.com"}
 
 
 
