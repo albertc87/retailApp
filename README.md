@@ -5,6 +5,10 @@ Integrantes:
 - Virginia Araujo Mercado
 
 [Click para ver diseño de la solución](https://drive.google.com/file/d/1gG3YMTE4OLDu8MqmOu-91mECy0eOySsa/view?usp=sharing)
+[Exchanges](https://drive.google.com/open?id=1AVc1Aj9E88vmbpNWsMgATBfncq0xA_pD)
+[Queues](https://drive.google.com/open?id=1_2QiPwf96QyG5Dpect8k8cRBlBICcUmF)
+[Exchange ventarealizada](https://drive.google.com/open?id=1j2tM-AfthRSvGZ9Wqy2k922Gw-mb_lKP)
+[Exchange clienteregistrado](https://drive.google.com/open?id=1sFxKBc7iePgwnRgbrPq0RUh0cyOI9hlp)
 
 # Pre-requisitos
 1. Instalar [MongoDB](https://pages.github.com/) y [Redis](https://redis.io/download)
